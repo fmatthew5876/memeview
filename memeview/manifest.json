@@ -1,0 +1,16 @@
+{
+  "name": "MemeView",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+	  {
+		  "matches": ["https://mevx.io/zone/degenzone"],
+		  "js": ["mevx.js"]
+	  }
+  ]
+}
